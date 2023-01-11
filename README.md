@@ -34,5 +34,12 @@ spring.profiles.active=dev
 -Dspring.profiles.active=dev
  ou 
 -Dspring.profiles.active=prod
+ou
+-Dspring.profiles.active=localhost
 ````
-##### e. 'dev' ou 'prod' estão apenas como exemplo.
+##### f. 'dev' ou 'prod' estão apenas como exemplo.
+
+#### 5. Se desejar, também colocar na configuracao em Enviroment Variables:
+````
+SPRING_PROFILES_ACTIVE= localhost;spring.output.ansi.enabled=ALWAYS
+````
