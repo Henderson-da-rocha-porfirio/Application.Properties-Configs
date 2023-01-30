@@ -1,3 +1,3 @@
-# accounts.properties
-## Verifique as Branches para ver outros exemplos(app bank como exemplo: accounts, loans, cards, eureka e gateway).
-> Geralmente usado em microservices
+# application.yml
+## exemplo configurado com postgresql
+> Geralmente usado em microservices e docker images
