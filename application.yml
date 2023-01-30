@@ -1,5 +1,7 @@
 # Spring Boot configuration
 spring:
+  main:
+    allow-circular-references: true
   profiles:
     active: development
   # Security configuration
